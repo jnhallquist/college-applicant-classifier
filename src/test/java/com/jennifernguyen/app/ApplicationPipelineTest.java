@@ -32,7 +32,7 @@ public class ApplicationPipelineTest extends TestCase {
         assertEquals ( ApplicationPipeline.process(isNotInstantReject), "Candidate requires further review." );
     }
 
-    public void testIsprocess() {
+    public void testIsInstantAccept() {
         // No ACT submitted
         Application isInstantAccept = new Application("Jane", "Smith", 17, "California", 4.0, 4.0, 2000, null, 0);
         // Is out-of-state, no ACT 

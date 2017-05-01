@@ -9,7 +9,7 @@ public class ApplicationTest extends TestCase {
         assertEquals ( validGPAPercentile.getGPAPercentile(), 0.9 );
     }
 
-    public void testisValidState() {
+    public void testIsValidState() {
         Application validState1 = new Application("Jane", "Smith", 17, "California", 3.6, 4.0, 1920, 27, 0);
         Application validState2 = new Application("Jane", "Smith", 83, "Wyoming", 3.6, 4.0, 1920, 27, 0);
 
@@ -17,7 +17,7 @@ public class ApplicationTest extends TestCase {
         assertTrue ( validState2.isValidInState() );
     }
 
-    public void testisInvalidState() {
+    public void testIsInvalidState() {
         Application invalidState1 = new Application("Jane", "Smith", 17, "Wyoming", 3.6, 4.0, 1920, 27, 0);
         Application invalidState2 = new Application("Jane", "Smith", 54, "California", 3.6, 4.0, 1920, 27, 0);
 

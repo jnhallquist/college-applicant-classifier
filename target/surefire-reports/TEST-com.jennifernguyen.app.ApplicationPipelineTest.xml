@@ -65,8 +65,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.jennifernguyen.app.ApplicationPipelineTest" name="testIsprocess" time="0"/>
   <testcase classname="com.jennifernguyen.app.ApplicationPipelineTest" name="testIsInstantReject" time="0"/>
   <testcase classname="com.jennifernguyen.app.ApplicationPipelineTest" name="testIsNotInstantReject" time="0"/>
+  <testcase classname="com.jennifernguyen.app.ApplicationPipelineTest" name="testIsInstantAccept" time="0"/>
   <testcase classname="com.jennifernguyen.app.ApplicationPipelineTest" name="testIsNotInstantAccept" time="0"/>
 </testsuite>
