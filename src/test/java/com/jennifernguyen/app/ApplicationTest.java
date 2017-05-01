@@ -3,7 +3,6 @@ package com.jennifernguyen.app;
 import junit.framework.TestCase;
 
 public class ApplicationTest extends TestCase {
-
     public void testValidGetGPAPercentile() {
         Application validGPAPercentile = new Application("Jane", "Smith", 0, "California", 3.6, 4.0, 1920, 27, 0);
 
@@ -25,5 +24,4 @@ public class ApplicationTest extends TestCase {
         assertFalse ( invalidState1.isValidInState() );
         assertFalse ( invalidState2.isValidInState() );
     }
-
 }

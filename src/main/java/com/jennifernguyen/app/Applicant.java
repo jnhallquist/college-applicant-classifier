@@ -5,7 +5,6 @@ import java.util.regex.Pattern;
 
 
 public class Applicant {
-
     private String firstName;
     private String lastName;
     private String applicantState;

@@ -1,6 +1,6 @@
 package com.jennifernguyen.app;
 
-public class Application{
+public class Application {
     public final String collegeState = "California";
     private double GPA;
     private double GPAScale;
@@ -56,5 +56,4 @@ public class Application{
     public Applicant getApplicant() {
         return applicant;
     }
-
 }

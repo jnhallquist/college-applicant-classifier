@@ -3,7 +3,6 @@ package com.jennifernguyen.app;
 import junit.framework.TestCase;
 
 public class ApplicantTest extends TestCase {
-
     public ApplicantTest( String testName ) {
         super( testName );
     }
