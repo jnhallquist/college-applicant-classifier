@@ -32,7 +32,7 @@ public class Applicant {
 
     public int getAge() {
         return age;
-	}
+    }
 
     public String getApplicantState() {
         return applicantState;
