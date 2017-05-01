@@ -3,10 +3,6 @@ package com.jennifernguyen.app;
 import junit.framework.TestCase;
 
 public class ApplicantTest extends TestCase {
-    public ApplicantTest( String testName ) {
-        super( testName );
-    }
-
     public void testHasValidName() {
         Applicant validApplicantName = new Applicant("Jane", "Smith", 0, null);
 
